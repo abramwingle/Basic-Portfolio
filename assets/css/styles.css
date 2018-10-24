@@ -15,6 +15,7 @@ h1 {
 
 .navBar {
     background-color: white;
+    margin-top: 25px;
     height: 75px;
     width: 100%;
     border-bottom: 1px, solid #cccccc;
@@ -55,9 +56,6 @@ h1 {
     padding: 10px;
     
 }
-
-
-
 
 #profilePicture {
     float: left;
@@ -108,5 +106,59 @@ h1 {
 
 }
 
+.contactBox {
+    margin-top: 25px;
+    background-color: #ffffff;
+    width: 890px;
+    margin-bottom: 85px;
+    border: 2px, solid, #dddddd; 
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;  
+       
+}
 
+label {
+    line-height: 40px;
+}
 
+#nameBox {
+    line-height: 20px;
+    width: 900px;
+}
+
+#emailBox {
+    line-height: 20px;
+    width: 900px;
+}
+
+#messageBox {
+    line-height: 200px;
+    width: 900px;
+    
+    
+}
+
+.submitButton {
+    margin-top: 9px;
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: teal; 
+    margin-left: 0px;
+    padding: 15px;
+}
+
+.submitButton:link { color: white; }    
+.submitButton:visited { color: white; }
+.submitButton:hover { color: black; }
+.submitButton:active { color: #666666; }
+
+input {
+    
+    font-size: 18px;
+}
