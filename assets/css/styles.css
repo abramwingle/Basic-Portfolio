@@ -57,6 +57,12 @@ h1 {
     
 }
 
+.button1, .button2 {
+    border-right: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+}
+
 #profilePicture {
     float: left;
     margin-top: 40px;
@@ -162,3 +168,153 @@ input {
     
     font-size: 18px;
 }
+
+.portfolioBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+    
+    margin: 10px;
+    
+    width: 250px;
+    height: 180px;
+}
+ #box1 {
+    background-image: url("../images/box1.jpeg");
+
+ }
+
+ #box1 a:link {
+     color: white;  
+     text-decoration: none;
+ }
+
+
+ #box1 a:active {
+     color:white;
+     text-decoration: none;
+ }
+
+ #box1 a:visited{
+    color: beige;
+    text-decoration: none;
+ }
+ #box1 a:hover {
+     color: black;
+     text-decoration: underline;
+ }
+
+
+ #box2 {
+    background-image: url("../images/box2.jpeg");
+ }
+
+ #box2 a:link {
+    color: white;  
+    text-decoration: none;
+}
+
+
+#box2 a:active {
+    color:white;
+    text-decoration: none;
+}
+
+#box2 a:visited{
+   color: beige;
+   text-decoration: none;
+}
+#box2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+ #box3 {
+    background-image: url("../images/box3.jpeg");
+ }
+
+ #box3 a:link {
+    color: white;  
+    text-decoration: none;
+}
+
+
+#box3 a:active {
+    color:white;
+    text-decoration: none;
+}
+
+#box3 a:visited{
+   color: beige;
+   text-decoration: none;
+}
+#box3 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+ #box4 {
+    background-image: url("../images/box4.jpeg");
+ }
+
+ #box4 a:link {
+    color: white;  
+    text-decoration: none;
+}
+
+
+#box4 a:active {
+    color:white;
+    text-decoration: none;
+}
+
+#box4 a:visited{
+   color: beige;
+   text-decoration: none;
+}
+#box4 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+ #box5 {
+    background-image: url("../images/box5.jpeg");
+ }
+
+    #box5 a:link {
+        color: white;  
+        text-decoration: none;
+    }
+   
+   
+    #box5 a:active {
+        color:white;
+        text-decoration: none;
+    }
+   
+    #box5 a:visited{
+       color: beige;
+       text-decoration: none;
+    }
+    #box5 a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+ 
+
+.boxBanner1 {
+
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin-top: 125px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+
