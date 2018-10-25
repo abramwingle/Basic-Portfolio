@@ -9,6 +9,10 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+p {
+    text-indent: 30px;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times, serif;
 }
@@ -178,132 +182,49 @@ input {
 #box1, #box2, #box3, #box4, #box5 {
     
     margin: 10px;
-    
     width: 250px;
     height: 180px;
 }
+
  #box1 {
     background-image: url("../images/box1.jpeg");
 
  }
 
- #box1 a:link {
+ #box1 a:link, #box2 a:link, #box3 a:link, #box4 a:link, #box5 a:link {
      color: white;  
      text-decoration: none;
  }
 
-
- #box1 a:active {
+ #box1 a:active, #box2 a:active, #box3 a:active, #box4 a:active, #box5 a:active  {
      color:white;
      text-decoration: none;
  }
 
- #box1 a:visited{
+ #box1 a:visited,  #box2 a:visited,  #box3 a:visited,  #box4 a:visited,  #box5 a:visited {
     color: beige;
     text-decoration: none;
  }
- #box1 a:hover {
+ #box1 a:hover, #box2 a:hover, #box3 a:hover, #box4 a:hover, #box5 a:hover {
      color: black;
      text-decoration: underline;
  }
-
 
  #box2 {
     background-image: url("../images/box2.jpeg");
  }
 
- #box2 a:link {
-    color: white;  
-    text-decoration: none;
-}
-
-
-#box2 a:active {
-    color:white;
-    text-decoration: none;
-}
-
-#box2 a:visited{
-   color: beige;
-   text-decoration: none;
-}
-#box2 a:hover {
-    color: black;
-    text-decoration: underline;
-}
-
  #box3 {
     background-image: url("../images/box3.jpeg");
  }
-
- #box3 a:link {
-    color: white;  
-    text-decoration: none;
-}
-
-
-#box3 a:active {
-    color:white;
-    text-decoration: none;
-}
-
-#box3 a:visited{
-   color: beige;
-   text-decoration: none;
-}
-#box3 a:hover {
-    color: black;
-    text-decoration: underline;
-}
 
  #box4 {
     background-image: url("../images/box4.jpeg");
  }
 
- #box4 a:link {
-    color: white;  
-    text-decoration: none;
-}
-
-
-#box4 a:active {
-    color:white;
-    text-decoration: none;
-}
-
-#box4 a:visited{
-   color: beige;
-   text-decoration: none;
-}
-#box4 a:hover {
-    color: black;
-    text-decoration: underline;
-}
-
  #box5 {
     background-image: url("../images/box5.jpeg");
  }
-
-    #box5 a:link {
-        color: white;  
-        text-decoration: none;
-    }
-   
-   
-    #box5 a:active {
-        color:white;
-        text-decoration: none;
-    }
-   
-    #box5 a:visited{
-       color: beige;
-       text-decoration: none;
-    }
-    #box5 a:hover {
-        color: black;
-        text-decoration: underline;
-    }
- 
 
 .boxBanner1 {
 
