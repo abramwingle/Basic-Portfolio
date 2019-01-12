@@ -8,46 +8,85 @@
     <link rel="stylesheet" href=assets/css/styles.css> <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Thasadith" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <style>
+    
+            a:link { color: gray; }    
+            a:visited { color: gray; }
+            a:hover {color: black; }
+            a:active { color: teal;}
+            
+                </style>
+
 </head>
 
 <title>Contact me</title>
 
 <body>
 
-    <h1 class="nameTitle">Abram Wingle</h1>
-    <div class="navBar"> </div>
-
-    <div class="navButtons">
-        <a class="button1" href="index.html" target="_blank">About</a>
-        <a class="button2" href="portfolio.html" target="_blank">Portfolio</a>
-        <a class="button3" href="contact.html" target="_blank">Contact</a>
-    </div>
+        <header class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-inverse">
+                    <div class="container">
+                        <div>
+                        <a href="index.html"><img class="header-img rounded headerImage" src="assets/images/tree.jpg" alt="Header Image"></a>
+                         </div>
+                        <div class="logo-div text-dark">
+                            <a class="head-logo mb-5 pt-5 boxBanner1" href="index.html" style="text-decoration:none">Abram Wingle</a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse collapse" id="navbarToggleExternalContent">
+                            <ul class="ul-nav navbar-nav navbar-right ml-md-auto navButtons">
+                                <li class="nav-item">
+                                    <a class="text-dark nav-link" href="index.html">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="text-dark nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="text-dark nav-link" href="contact.html">Résumé
+                                        </a>
+                                </li>
+        
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
     <!--This says about me but its actually contact, they are sharing-->
     <div class="aboutMe">
         <h1 class=aboutMeHeader>
-            Contact
+                Résumé
+
         </h1>
 
         <div class=lineBelowAboutMe>&nbsp</div>
 
         <div class=contactBox>
 
-            <label>Name:</label>
-            <input type="text" id="nameBox" />
-
-            <label>Email:</label>
-            <input type="text" id="emailBox" />
-
-            <label>Message:</label>
-            <input type="text" id="messageBox" />
-
-            <a class="submitButton" href="index.html">Submit</a>
+            <img src="assets/images/resume.png">
 
         </div>
-        <div id=footer>
-            &nbsp
-        </div>
+    </div>
+
+        <div id="footer">
+                <a class="social" href="https://github.com/abramwingle">Github</a>
+                
+                <a href="https://www.linkedin.com/in/abram-wingle-4b055316a/">LinkedIn</a>
+        
+        
+            </div>
+       
+       
+        
 </body>
 
 </html>

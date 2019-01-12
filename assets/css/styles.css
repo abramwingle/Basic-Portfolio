@@ -4,9 +4,9 @@
 }
 
 body {
-    background-image: url("../images/backgroundImage.jpg");
+    background-image: url("../images/background-image.jpg");
     background-repeat: repeat;   
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Bangers', cursive;
 }
 
 p {
@@ -14,15 +14,15 @@ p {
 }
 
 h1 {
-    font-family: 'Georgia', Times, Times, serif;
+    font-family: 'Bangers', cursive;
 }
 
-.navBar {
+.navBarStyle {
     background-color: white;
     margin-top: 25px;
     height: 75px;
     width: 100%;
-    border-bottom: 1px, solid #cccccc;
+    border-bottom: 1px, solid black;
     z-index: 1;
       
 }
@@ -35,26 +35,24 @@ h1 {
     margin-left: 240px;
     color: white;
     float: left;
+    font-family: 'Bangers', cursive;
+
 }
  
 .navButtons {
     
   
     width: 240px;
-    margin-top: -76px;
     float: right;
-    margin-right: 215px;
-    border-bottom: 1px, solid, #cccccc;
-    line-height: 75px;
+    margin-right: 30px;
+    border-bottom: 1px, solid, black;
     text-align: right;
     z-index: 2;
-    
+    font-family: 'Bangers', cursive;
+
 }
 
-    a:link { color: #777777; }    
-    a:visited { color: #777777; }
-    a:hover { color: teal; }
-    a:active { color: #666666; }
+   
 
 .button1, .button2, .button3 {
     padding: 10px;
@@ -77,15 +75,17 @@ h1 {
     text-align: left;
     margin-left: 20px;
     line-height: 75px;
-    color: teal;
+    color: black;
+    font-family: 'Bangers', cursive;
+
 }
 
 .aboutMe {
-    margin-top: 25px;
+    margin-top: 150px;
     background-color: #ffffff;
     width: 960px;
     margin-left: 240px;
-    margin-bottom: 85px;
+    margin-bottom: 40px;
     border: 2px, solid, #dddddd;    
 }
 
@@ -106,13 +106,21 @@ h1 {
 }
 
 #footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#666666;
+    background-color: lightgray;
     line-height: 50px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid black;
+    text-align: center;
+    color: gray;
+
+}
+
+#resume {
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -125,7 +133,8 @@ h1 {
     padding-right: 50px;
     padding-bottom: 70px;
     padding-top: 10px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;  
        
 }
@@ -158,7 +167,7 @@ label {
     text-align: center;
     font-size: 18px;
     color: white;
-    background-color: teal; 
+    background-color: gray; 
     margin-left: 0px;
     padding: 15px;
 }
@@ -187,26 +196,26 @@ input {
 }
 
  #box1 {
-    background-image: url("../images/box1.jpeg");
+    background-image: url("../images/box1.png");
 
  }
 
  #box1 a:link, #box2 a:link, #box3 a:link, #box4 a:link, #box5 a:link {
-     color: white;  
+     color: black;  
      text-decoration: none;
  }
 
  #box1 a:active, #box2 a:active, #box3 a:active, #box4 a:active, #box5 a:active  {
-     color:white;
+     color:black;
      text-decoration: none;
  }
 
  #box1 a:visited,  #box2 a:visited,  #box3 a:visited,  #box4 a:visited,  #box5 a:visited {
-    color: beige;
+    color: black;
     text-decoration: none;
  }
  #box1 a:hover, #box2 a:hover, #box3 a:hover, #box4 a:hover, #box5 a:hover {
-     color: black;
+     color: lightgray;
      text-decoration: underline;
  }
 
@@ -215,27 +224,230 @@ input {
  }
 
  #box3 {
-    background-image: url("../images/box3.jpeg");
+    background-image: url("../images/box3.jpg");
  }
 
  #box4 {
-    background-image: url("../images/box4.jpeg");
+    background-image: url("../images/box4.png");
  }
 
  #box5 {
-    background-image: url("../images/box5.jpeg");
+    background-image: url("../images/box5.png");
  }
 
 .boxBanner1 {
-
-    background-color: teal;
-    color: white;
     width: 250px;
     height: 50px;
     margin-top: 125px;
     text-align: center;
     line-height: 50px;
-    font-size: 24px;
+    font-size: 42px;
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+
 }
 
+.boxBanner2 {
+    width: 250px;
+    height: 50px;
+    margin-top: 75px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+    background-color: white
+
+}
+
+
+.social {
+    border-right: solid;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+
+
+    .nameTitle {
+        margin-left: 50px;
+    
+    }
+
+    .navButtons {
+        margin-right: 50px;
+    }
+
+    .aboutMe {
+
+        width: 600px;
+        margin-left: 50px;
+    }
+
+    .lineBelowAboutMe {
+        width: 500px;
+
+
+    }
+
+    .contactBox {
+        width: 500px;
+    }
+
+    #nameBox {
+        width: 500px;
+    }
+
+    #emailBox {
+        width: 500px;
+    }
+
+    #messageBox {
+        width: 500px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  
+    .nameTitle {
+        margin-left: 50px;
+      
+    }
+
+    .navButtons {
+        margin-right: 50px;
+    }
+
+    .aboutMe {
+
+        width: 550px;
+        margin-left: 50px;
+    }
+
+    .lineBelowAboutMe {
+        width: 450px;
+
+
+    }
+
+    .contactBox {
+        width: 450px;
+    }
+
+    #nameBox {
+        width: 450px;
+    }
+
+    #emailBox {
+        width: 450px;
+    }
+
+    #messageBox {
+        width: 450px;
+    }
+
+
+    #profilePicture {
+        width: 300px;
+        height: 202px;
+        
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:640px) {
+
+    .nameTitle {
+    
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+
+    .navButtons {
+        margin-top: 0px;
+        margin-right: 0px;
+        width: 100%;     
+        background-color: white;
+        clear: both;
+        text-align: center;
+    }
+
+    .aboutMe {
+
+        width: 90%;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .lineBelowAboutMe {
+        width: 75%;
+
+
+    }
+
+    .contactBox {
+        width: 80%;
+    }
+
+    #nameBox {
+        width: 100%;
+    }
+
+    #emailBox {
+        width: 100%;
+    }
+
+    #messageBox {
+        width: 100%;
+    }
+
+
+    #profilePicture {
+        width: 350px;
+        height: 235px;;
+        padding: 20px;
+        
+        
+        
+    }
+
+    .portfolioBox {
+        width: 100%;
+        float: auto;
+        margin-top: 10px;
+    }
+
+    #box1, #box2, #box3, #box4, #box5 {
+    
+        padding: 10px;
+        width: 250px;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+    
+    }
+
+}
+
+
+.newButton {
+    margin-right: auto;
+    margin-left: auto;
+}
 
