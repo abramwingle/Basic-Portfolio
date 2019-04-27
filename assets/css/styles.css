@@ -72,7 +72,7 @@ h1 {
 }
 
 .aboutMeHeader {
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
     line-height: 75px;
     color: black;
@@ -188,7 +188,7 @@ input {
     width: 600px;
 }
 
-#box1, #box2, #box3, #box4, #box5, #box6 {
+#box1, #box2, #box3, #box4, #box5, #box6, #box7 {
     
     margin: 10px;
     width: 250px;
@@ -200,21 +200,21 @@ input {
 
  }
 
- #box1 a:link, #box2 a:link, #box3 a:link, #box4 a:link, #box5 a:link, #box6 a:link {
+ #box1 a:link, #box2 a:link, #box3 a:link, #box4 a:link, #box5 a:link, #box6 a:link, #box7 a:link {
      color: black;  
      text-decoration: none;
  }
 
- #box1 a:active, #box2 a:active, #box3 a:active, #box4 a:active, #box5 a:active, #box6 a:active  {
+ #box1 a:active, #box2 a:active, #box3 a:active, #box4 a:active, #box5 a:active, #box6 a:active, #box7 a:active  {
      color:black;
      text-decoration: none;
  }
 
- #box1 a:visited,  #box2 a:visited,  #box3 a:visited,  #box4 a:visited,  #box5 a:visited, #box6 a:visited {
+ #box1 a:visited,  #box2 a:visited,  #box3 a:visited,  #box4 a:visited,  #box5 a:visited, #box6 a:visited, #box7 a:visited {
     color: black;
     text-decoration: none;
  }
- #box1 a:hover, #box2 a:hover, #box3 a:hover, #box4 a:hover, #box5 a:hover, #box6 a:hover {
+ #box1 a:hover, #box2 a:hover, #box3 a:hover, #box4 a:hover, #box5 a:hover, #box6 a:hover, #box7 a:hover {
      color: lightgray;
      text-decoration: underline;
  }
@@ -236,7 +236,12 @@ input {
  }
 
  #box6 {
-    background-image: url("../images/box5.png");
+    background-image: url("../images/box6.png");
+ }
+
+ #box7 {
+     background-image: url("../images/box7.png")
+
  }
 
 .boxBanner1 {
@@ -303,7 +308,9 @@ input {
     }
 
     .contactBox {
-        width: 500px;
+        max-width:100%;
+        max-height:100%;
+        margin-right: auto;
     }
 
     #nameBox {
@@ -443,7 +450,7 @@ input {
         margin-top: 10px;
     }
 
-    #box1, #box2, #box3, #box4, #box5 {
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7 {
     
         padding: 10px;
         width: 250px;
